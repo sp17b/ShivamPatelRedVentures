@@ -4,11 +4,21 @@
 
 Steps:
 
-Install Vue is installed ->1. sudo npm install -g @vue/cli ->2.sudo npm update -g @vue/cli #To update cli ->3.npm i @vue/cli-service #Install dependencies
-Navigate inside bot-o-mat-sp17b Folder
-Run the command : npm run serve
-Then go to http://localhost:8080/ in a browser to view the project.
-Project Details; -The landing page has input for a name Ex. Sam -Upon entering the name the user can select the type of bot they want -THen 5 random tasks will be displayed which the bot can do -Upon completion of all the tasks, the bot's name and number of tasks will be added to the leaderboard table in upper right. Ex. Sam 1 -Cannot create a bot with the same name if bot already has tasks assigned however once the bot finishes all the tasks then a new bot with the same nam can be created -Clicking on the task time will disable the task button and start the countdown. Once the task is finished the task will be removed from the list. -Once all the tasks are finished the bot will be removed.
+1.Install Vue is installed 
+->1. sudo npm install -g @vue/cli 
+->2.sudo npm update -g @vue/cli #To update cli 
+->3.npm i @vue/cli-service #Install dependencies
+2.Navigate inside bot-o-mat-sp17b Folder
+3.Run the command : npm run serve
+4.Then go to http://localhost:8080/ in a browser to view the project.
+
+Project Details:
+-The landing page has input for a name Ex. Sam -Upon entering the name the user can select the type of bot they want 
+-THen 5 random tasks will be displayed which the bot can do -Upon completion of all the tasks, the bot's name and number of tasks will be added to the leaderboard table in upper right. Ex. Sam 1 
+-Cannot create a bot with the same name if bot already has tasks assigned however once the bot finishes all the tasks then a new bot with the same nam can be created 
+-Clicking on the task time will disable the task button and start the countdown. Once the task is finished the task will be removed from the list. 
+-Once all the tasks are finished the bot will be removed.
+--------------------------------------------------------------------
 
 BOT-O-MAT
 Use any language to complete this challenge. The implementation is up to you: it can be a command-line application or have a graphical interface.
